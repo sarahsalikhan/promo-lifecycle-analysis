@@ -1,6 +1,7 @@
 # **Promo Lifecycle Analysis**
 
 
+
 **📌 Project Overview**
 
 This project explores how long the effects of promotions and price changes last before dissipating, using a combination of Difference-in-Differences (DiD) and Survival Analysis techniques. While DiD provides insights into the magnitude of the impact, Survival Analysis adds a time dimension, showing how quickly effects fade and whether they differ across regions or store characteristic.
@@ -19,7 +20,9 @@ Provide decision-makers with deeper insights into how long promotional effects p
 
 **📊 Methodology**
 
-1. Difference-in-Differences (DiD)
+
+
+1. ***Difference-in-Differences (DiD)***
 
 Measures average pre/post changes between test and control groups.
 
@@ -27,7 +30,7 @@ Provides a dollar-value estimate of impact.
 
 Assumes effects are permanent shifts after the intervention.
 
-2. Survival Analysis
+2. ***Survival Analysis***
 
 Models the time until effects dissipate, e.g., when sales or traffic return to baseline.
 
@@ -41,17 +44,12 @@ Captures decay rate of the treatment effect and allows comparison across regions
 
 Source: Restaurant-level data across multiple regions.
 
-Metrics Analyzed:
-
-Weekly Sales
-
-Weekly Profit
-
-Weekly Traffic
-
-Treatment: Promotion or price change events.
-
-Control: Comparable stores without intervention.
+* Metrics Analyzed:
+* Weekly Sales
+* Weekly Profit
+* Weekly Traffic
+* Treatment: Promotion or price change events.
+* Control: Comparable stores without intervention.
 
 
 
